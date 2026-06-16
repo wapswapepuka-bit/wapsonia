@@ -1,0 +1,210 @@
+<!DOCTYPE HTML> 
+<html> 
+<head>  
+    <title>Wapsonia IT</title>  
+    <link rel="stylesheet" href="style.css" title="" type="" />  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+</head>  
+<body class="academy-body">  
+    <div class="bar">  
+          
+        <div class="logo-area">  
+            <img src="images/1781469896591.png" alt="Logo">  
+        </div>  
+        <h1>WAPSONIA IT</h1>  
+        <div class="hamburger" onclick="toggleMenu()">
+    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828859.png" alt="menu">
+</div>
+          
+    </div> <div class="overlay" onclick="toggleMenu()"></div>
+    
+   <div class="side-menu" id="sideMenu">
+
+    <div class="menu-header">
+        <span class="back-arrow" onclick="toggleMenu()">←</span>
+        <div>
+            <h3>WAPSONIA IT</h3>
+            <small>IT Solutions & Training</small>
+        </div>
+    </div>
+
+    <div class="menu-section-title">MAIN</div>
+
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="index.html#services"><i class="fa-solid fa-gears"></i> Services</a>
+    <a href="academy.html"><i class="fa-solid fa-graduation-cap"></i> Academy</a>
+
+    <div class="menu-section-title">SUPPORT</div>
+
+    <a href="contact.html"><i class="fa-solid fa-headset"></i> Contact Support</a>
+    <a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a>
+
+    <div class="menu-footer">
+        <p>© 2026 Wapsonia IT</p>
+    </div>
+
+</div>
+
+<div class="academy-hero">
+
+    <div class="hero-content">
+        <h1>WAPSONIA IT ACADEMY</h1>
+        <p>Learn Information Technology step by step with practical topics, quizzes, and real-world skills training.</p>
+
+        <div class="hero-stats">
+            <div>
+                <h3>20+</h3>
+                <span>Topics</span>
+            </div>
+
+            <div>
+                <h3>200+</h3>
+                <span>Questions</span>
+            </div>
+
+            <div>
+                <h3>Free</h3>
+                <span>Learning</span>
+            </div>
+        </div>
+
+        <a href="#topics" class="hero-btn">Start Learning</a>
+    </div>
+
+</div>
+
+<div class="academy-container">
+
+    <!-- TOPIC -->
+    <div class="topic-card">
+
+        <button class="topic-btn" onclick="toggleTopic('t1')">
+            💻 1. Introduction to Computers
+        </button>
+
+        <div class="topic-content" id="t1">
+
+<!-- QUESTION 1 -->
+<div class="question-box">
+    <p class="question-title">1. What is a computer?</p>
+
+    <label class="option"><input type="radio" name="q1" value="A" onchange="checkCompletion()"> A. A mechanical machine used primarily for heavy lifting.</label>
+    <label class="option"><input type="radio" name="q1" value="B" onchange="checkCompletion()"> B. An electronic device that processes data according to a set of instructions.</label>
+    <label class="option"><input type="radio" name="q1" value="C" onchange="checkCompletion()"> C. A type of television used for viewing digital content.</label>
+    <label class="option"><input type="radio" name="q1" value="D" onchange="checkCompletion()"> D. A wooden tool used to calculate mathematical equations.</label>
+</div>
+
+<!-- QUESTION 2 -->
+<div class="question-box">
+    <p class="question-title">2. Which of the following is an input device?</p>
+
+    <label class="option"><input type="radio" name="q2" value="A" onchange="checkCompletion()"> A. Monitor</label>
+    <label class="option"><input type="radio" name="q2" value="B" onchange="checkCompletion()"> B. Printer</label>
+    <label class="option"><input type="radio" name="q2" value="C" onchange="checkCompletion()"> C. Keyboard</label>
+    <label class="option"><input type="radio" name="q2" value="D" onchange="checkCompletion()"> D. Speaker</label>
+</div>
+
+<!-- QUESTION 3 -->
+<div class="question-box">
+    <p class="question-title">3. What is the main purpose of a computer?</p>
+
+    <label class="option"><input type="radio" name="q3" value="A" onchange="checkCompletion()"> A. Entertainment only</label>
+    <label class="option"><input type="radio" name="q3" value="B" onchange="checkCompletion()"> B. Playing music only</label>
+    <label class="option"><input type="radio" name="q3" value="C" onchange="checkCompletion()"> C. Processing data and performing tasks</label>
+    <label class="option"><input type="radio" name="q3" value="D" onchange="checkCompletion()"> D. Displaying images only</label>
+</div>
+
+<!-- QUESTION 4 -->
+<div class="question-box">
+    <p class="question-title">4. Which part of the computer is called the “brain”?</p>
+
+    <label class="option"><input type="radio" name="q4" value="A" onchange="checkCompletion()"> A. RAM</label>
+    <label class="option"><input type="radio" name="q4" value="B" onchange="checkCompletion()"> B. CPU</label>
+    <label class="option"><input type="radio" name="q4" value="C" onchange="checkCompletion()"> C. Hard disk</label>
+    <label class="option"><input type="radio" name="q4" value="D" onchange="checkCompletion()"> D. Monitor</label>
+</div>
+
+<!-- QUESTION 5 -->
+<div class="question-box">
+    <p class="question-title">5. Which of the following is an output device?</p>
+
+    <label class="option"><input type="radio" name="q5" value="A" onchange="checkCompletion()"> A. Mouse</label>
+    <label class="option"><input type="radio" name="q5" value="B" onchange="checkCompletion()"> B. Keyboard</label>
+    <label class="option"><input type="radio" name="q5" value="C" onchange="checkCompletion()"> C. Monitor</label>
+    <label class="option"><input type="radio" name="q5" value="D" onchange="checkCompletion()"> D. Microphone</label>
+</div>
+
+<!-- QUESTION 6 -->
+<div class="question-box">
+    <p class="question-title">6. What does RAM stand for?</p>
+
+    <label class="option"><input type="radio" name="q6" value="A" onchange="checkCompletion()"> A. Random Access Memory</label>
+    <label class="option"><input type="radio" name="q6" value="B" onchange="checkCompletion()"> B. Read Active Memory</label>
+    <label class="option"><input type="radio" name="q6" value="C" onchange="checkCompletion()"> C. Run All Memory</label>
+    <label class="option"><input type="radio" name="q6" value="D" onchange="checkCompletion()"> D. Rapid Access Machine</label>
+</div>
+
+<!-- QUESTION 7 -->
+<div class="question-box">
+    <p class="question-title">7. What happens when a computer starts (boots)?</p>
+
+    <label class="option"><input type="radio" name="q7" value="A" onchange="checkCompletion()"> A. It deletes files</label>
+    <label class="option"><input type="radio" name="q7" value="B" onchange="checkCompletion()"> B. It loads the operating system</label>
+    <label class="option"><input type="radio" name="q7" value="C" onchange="checkCompletion()"> C. It turns off RAM</label>
+    <label class="option"><input type="radio" name="q7" value="D" onchange="checkCompletion()"> D. It prints documents</label>
+</div>
+
+<!-- QUESTION 8 -->
+<div class="question-box">
+    <p class="question-title">8. Which of these is software?</p>
+
+    <label class="option"><input type="radio" name="q8" value="A" onchange="checkCompletion()"> A. Keyboard</label>
+    <label class="option"><input type="radio" name="q8" value="B" onchange="checkCompletion()"> B. Mouse</label>
+    <label class="option"><input type="radio" name="q8" value="C" onchange="checkCompletion()"> C. Windows Operating System</label>
+    <label class="option"><input type="radio" name="q8" value="D" onchange="checkCompletion()"> D. Monitor</label>
+</div>
+
+<!-- QUESTION 9 -->
+<div class="question-box">
+    <p class="question-title">9. What is the difference between hardware and software?</p>
+
+    <label class="option"><input type="radio" name="q9" value="A" onchange="checkCompletion()"> A. Hardware is programs, software is physical parts</label>
+    <label class="option"><input type="radio" name="q9" value="B" onchange="checkCompletion()"> B. Hardware is physical parts, software is programs</label>
+    <label class="option"><input type="radio" name="q9" value="C" onchange="checkCompletion()"> C. Both are the same</label>
+    <label class="option"><input type="radio" name="q9" value="D" onchange="checkCompletion()"> D. Software is only internet</label>
+</div>
+
+<!-- QUESTION 10 -->
+<div class="question-box">
+    <p class="question-title">10. Why is an operating system important?</p>
+
+    <label class="option"><input type="radio" name="q10" value="A" onchange="checkCompletion()"> A. It cools the computer</label>
+    <label class="option"><input type="radio" name="q10" value="B" onchange="checkCompletion()"> B. It manages hardware and software resources</label>
+    <label class="option"><input type="radio" name="q10" value="C" onchange="checkCompletion()"> C. It increases screen size</label>
+    <label class="option"><input type="radio" name="q10" value="D" onchange="checkCompletion()"> D. It connects the printer only</label>
+</div>
+            <button class="submit-btn" onclick="submitQuiz()" disabled>
+                Submit Answer
+            </button>
+            
+            <div id="result-bar" class="result-bar">
+              Your Score: 0%
+            </div>
+            
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<a href="https://wa.me/263774382976" class="whatsapp-float" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</body>
+<script src="script.js"></script>
+
+</html>
